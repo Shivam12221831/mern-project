@@ -1,0 +1,26 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "This repo is created by Shivam Singh.",
+  "homepage": "https://github.com/Shivam12221831/mern-project#readme",
+  "bugs": {
+    "url": "https://github.com/Shivam12221831/mern-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam12221831/mern-project.git"
+  },
+  "license": "ISC",
+  "author": "Shivam Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.9.6"
+  }
+}
