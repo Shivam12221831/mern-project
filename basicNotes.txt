@@ -1,0 +1,13 @@
+- This content is app.js b/w app.use("/listings/:id/review") and app.use("*")
+// app.get("/testListing", async(req,res) => {
+//     let sampleList = new Listing({
+//         title : "My new villa",
+//         description : "By the beach",
+//         price : 1200,
+//         location : "Calangute, Goa",
+//         country : "India",
+//     });
+//     await sampleList.save().then(res => console.log(res)).catch(err => console.log(err));
+//     console.log("sample was saved");
+//     res.send("Successfully testing");
+// });
