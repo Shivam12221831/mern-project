@@ -32,6 +32,10 @@ module.exports.isOwner = async(req, res, next) => {
 
 // Linsting Model Validator
 module.exports.validateListing = (req, res, next) => {
+    // if (req.file) {
+    //   req.body.listing.image.url = req.file.path;       // Cloud storage or local path
+    //   req.body.listing.image.filename = req.file.filename; // File name from storage
+    // };
     let { error } = listingSchema.validate(req.body);
     // console.log(error);
     if(error){
